@@ -8,7 +8,6 @@ import {
   MenuList,
   MenuItem,
   Avatar,
-  IconButton,
 } from "@material-tailwind/react";
 import {
   UserCircleIcon,

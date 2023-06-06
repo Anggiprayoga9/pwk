@@ -122,206 +122,205 @@ const Hero = () => {
                 {/* End Checkbox Button */}
 
                 {/* Start View box 1*/}
+
                 <div className="flex justify-center flex-col">
-                    <div>
-                        <div className="flex justify-between pt-[100px]">
-                            <h4 className="font-bold">Kategori 1</h4>
-                            <a href="#" className="text-deep-orange-500 font-bold" >Selengkapnya</a>
+                    <div className="flex justify-between pt-[100px]">
+                        <h4 className="font-bold">TTRAKORPS</h4>
+                        <a href="#" className="text-deep-orange-500 font-bold" >Selengkapnya</a>
+                    </div>
+                    <div className="mt-[50px] flex justify-between">
+                        <div className="w-[50%] m-5">
+                            <Card>
+                                <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
+                                    <img src="https://drive.google.com/uc?export=view&id=1bFyiJdRR5vTBvJ8UH1irqf2KUJH8Itca" className="justify-center" width="150" alt="PUSSENARMED" layout="fill" />
+                                </CardHeader>
+                                <CardBody>
+                                    <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
+                                        PUSSENARMED
+                                    </Typography>
+                                    <Typography className="text-justify">
+                                        The place is close to Barceloneta Beach and bus stop just 2 min by walk
+                                        and near to &quot;Naviglio&quot; where you can enjoy the main night life
+                                        in Barcelona.
+                                    </Typography>
+                                </CardBody>
+                                <CardFooter className="pt-0">
+                                    <div className="flex justify-between">
+                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Typography>Update 10/10/2020</Typography>
+                                    </div>
+                                </CardFooter>
+                            </Card>
                         </div>
-                        <div className="mt-[50px] flex justify-between">
-                            <div className="w-[50%] m-5">
-                                <Card>
-                                    <CardHeader color="blue-gray" className="relative h-50">
-                                        <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
-                                    </CardHeader>
-                                    <CardBody>
-                                        <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
-                                            UI/UX Review Check
-                                        </Typography>
-                                        <Typography className="text-justify">
-                                            The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                                            and near to &quot;Naviglio&quot; where you can enjoy the main night life
-                                            in Barcelona.
-                                        </Typography>
-                                    </CardBody>
-                                    <CardFooter className="pt-0">
-                                        <div className="flex justify-between">
-                                            <Button onClick={handleOpen}>Read More</Button>
-                                            <Typography>Update 10/10/2020</Typography>
-                                        </div>
-                                    </CardFooter>
-                                </Card>
-                            </div>
-                            <div className="w-[50%] m-5">
-                                <Card>
-                                    <CardHeader color="blue-gray" className="relative h-50">
-                                        <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
-                                    </CardHeader>
-                                    <CardBody>
-                                        <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
-                                            UI/UX Review Check
-                                        </Typography>
-                                        <Typography className="text-justify">
-                                            The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                                            and near to &quot;Naviglio&quot; where you can enjoy the main night life
-                                            in Barcelona.
-                                        </Typography>
-                                    </CardBody>
-                                    <CardFooter className="pt-0">
-                                        <div className="flex justify-between">
-                                            <Button onClick={handleOpen}>Read More</Button>
-                                            <Typography>Update 10/10/2020</Typography>
-                                        </div>
-                                    </CardFooter>
-                                </Card>
-                            </div>
-                            <div className="w-[50%] m-5">
-                                <Card>
-                                    <CardHeader color="blue-gray" className="relative h-50">
-                                        <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
-                                    </CardHeader>
-                                    <CardBody>
-                                        <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
-                                            UI/UX Review Check
-                                        </Typography>
-                                        <Typography className="text-justify">
-                                            The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                                            and near to &quot;Naviglio&quot; where you can enjoy the main night life
-                                            in Barcelona.
-                                        </Typography>
-                                    </CardBody>
-                                    <CardFooter className="pt-0">
-                                        <div className="flex justify-between">
-                                            <Button onClick={handleOpen}>Read More</Button>
-                                            <Typography>Update 10/10/2020</Typography>
-                                        </div>
-                                    </CardFooter>
-                                </Card>
-                            </div>
-                            <div className="w-[50%] m-5">
-                                <Card>
-                                    <CardHeader color="blue-gray" className="relative h-50">
-                                        <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
-                                    </CardHeader>
-                                    <CardBody>
-                                        <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
-                                            UI/UX Review Check
-                                        </Typography>
-                                        <Typography className="text-justify">
-                                            The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                                            and near to &quot;Naviglio&quot; where you can enjoy the main night life
-                                            in Barcelona.
-                                        </Typography>
-                                    </CardBody>
-                                    <CardFooter className="pt-0">
-                                        <div className="flex justify-between">
-                                            <Button onClick={handleOpen}>Read More</Button>
-                                            <Typography>Update 10/10/2020</Typography>
-                                        </div>
-                                    </CardFooter>
-                                </Card>
-                            </div>
+                        <div className="w-[50%] m-5">
+                            <Card>
+                                <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
+                                    <img src="https://drive.google.com/uc?export=view&id=1NFsyZB-PE_HZJMDH5I0rwIpzu2E45K4b" width="150" alt="PUSDIKARMED" layout="fill" />
+                                </CardHeader>
+                                <CardBody>
+                                    <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
+                                        PUSDIKARMED
+                                    </Typography>
+                                    <Typography className="text-justify">
+                                        The place is close to Barceloneta Beach and bus stop just 2 min by walk
+                                        and near to &quot;Naviglio&quot; where you can enjoy the main night life
+                                        in Barcelona.
+                                    </Typography>
+                                </CardBody>
+                                <CardFooter className="pt-0">
+                                    <div className="flex justify-between">
+                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Typography>Update 10/10/2020</Typography>
+                                    </div>
+                                </CardFooter>
+                            </Card>
+                        </div>
+                        <div className="w-[50%] m-5">
+                            <Card>
+                                <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
+                                    <img src="https://drive.google.com/uc?export=view&id=1TcVYY4XKaYSj7_GrbIUPUQWwipDDG23k" width="90" height="auto" alt="RESIMEN 1" layout="fill" />
+                                </CardHeader>
+                                <CardBody>
+                                    <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
+                                        RESIMEN 1
+                                    </Typography>
+                                    <Typography className="text-justify">
+                                        The place is close to Barceloneta Beach and bus stop just 2 min by walk
+                                        and near to &quot;Naviglio&quot; where you can enjoy the main night life
+                                        in Barcelona.
+                                    </Typography>
+                                </CardBody>
+                                <CardFooter className="pt-0">
+                                    <div className="flex justify-between">
+                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Typography>Update 10/10/2020</Typography>
+                                    </div>
+                                </CardFooter>
+                            </Card>
+                        </div>
+                        <div className="w-[50%] m-5">
+                            <Card>
+                                <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
+                                    <img src="https://drive.google.com/uc?export=view&id=11CdYVvpfNxsZAdTvD8838F8_RI4NJ7av" alt="RESIMEN 2" width="90" height="auto" layout="fill" />
+                                </CardHeader>
+                                <CardBody>
+                                    <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
+                                        RESIMEN 2
+                                    </Typography>
+                                    <Typography className="text-justify">
+                                        The place is close to Barceloneta Beach and bus stop just 2 min by walk
+                                        and near to &quot;Naviglio&quot; where you can enjoy the main night life
+                                        in Barcelona.
+                                    </Typography>
+                                </CardBody>
+                                <CardFooter className="pt-0">
+                                    <div className="flex justify-between">
+                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Typography>Update 10/10/2020</Typography>
+                                    </div>
+                                </CardFooter>
+                            </Card>
                         </div>
                     </div>
+                </div>
 
-                    <div>
-                        <div className="flex justify-between pt-[100px]">
-                            <h4 className="font-bold">Kategori 2</h4>
-                            <a href="#" className="text-deep-orange-500 font-bold" >Selengkapnya</a>
+                <div className="flex justify-center flex-col">
+                    <div className="flex justify-between pt-[100px]">
+                        <h4 className="font-bold">Kategori 2</h4>
+                        <a href="#" className="text-deep-orange-500 font-bold" >Selengkapnya</a>
+                    </div>
+                    <div className="mt-[50px] flex justify-between">
+                        <div className="w-[50%] m-5">
+                            <Card>
+                                <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
+                                    <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
+                                </CardHeader>
+                                <CardBody>
+                                    <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
+                                        UI/UX Review Check
+                                    </Typography>
+                                    <Typography className="text-justify">
+                                        The place is close to Barceloneta Beach and bus stop just 2 min by walk
+                                        and near to &quot;Naviglio&quot; where you can enjoy the main night life
+                                        in Barcelona.
+                                    </Typography>
+                                </CardBody>
+                                <CardFooter className="pt-0">
+                                    <div className="flex justify-between">
+                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Typography>Update 10/10/2020</Typography>
+                                    </div>
+                                </CardFooter>
+                            </Card>
                         </div>
-                        <div className="mt-[50px] flex justify-between">
-                            <div className="w-[50%] m-5">
-                                <Card>
-                                    <CardHeader color="blue-gray" className="relative h-50">
-                                        <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
-                                    </CardHeader>
-                                    <CardBody>
-                                        <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
-                                            UI/UX Review Check
-                                        </Typography>
-                                        <Typography className="text-justify">
-                                            The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                                            and near to &quot;Naviglio&quot; where you can enjoy the main night life
-                                            in Barcelona.
-                                        </Typography>
-                                    </CardBody>
-                                    <CardFooter className="pt-0">
-                                        <div className="flex justify-between">
-                                            <Button onClick={handleOpen}>Read More</Button>
-                                            <Typography>Update 10/10/2020</Typography>
-                                        </div>
-                                    </CardFooter>
-                                </Card>
-                            </div>
-                            <div className="w-[50%] m-5">
-                                <Card>
-                                    <CardHeader color="blue-gray" className="relative h-50">
-                                        <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
-                                    </CardHeader>
-                                    <CardBody>
-                                        <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
-                                            UI/UX Review Check
-                                        </Typography>
-                                        <Typography className="text-justify">
-                                            The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                                            and near to &quot;Naviglio&quot; where you can enjoy the main night life
-                                            in Barcelona.
-                                        </Typography>
-                                    </CardBody>
-                                    <CardFooter className="pt-0">
-                                        <div className="flex justify-between">
-                                            <Button onClick={handleOpen}>Read More</Button>
-                                            <Typography>Update 10/10/2020</Typography>
-                                        </div>
-                                    </CardFooter>
-                                </Card>
-                            </div>
-                            <div className="w-[50%] m-5">
-                                <Card>
-                                    <CardHeader color="blue-gray" className="relative h-50">
-                                        <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
-                                    </CardHeader>
-                                    <CardBody>
-                                        <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
-                                            UI/UX Review Check
-                                        </Typography>
-                                        <Typography className="text-justify">
-                                            The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                                            and near to &quot;Naviglio&quot; where you can enjoy the main night life
-                                            in Barcelona.
-                                        </Typography>
-                                    </CardBody>
-                                    <CardFooter className="pt-0">
-                                        <div className="flex justify-between">
-                                            <Button onClick={handleOpen}>Read More</Button>
-                                            <Typography>Update 10/10/2020</Typography>
-                                        </div>
-                                    </CardFooter>
-                                </Card>
-                            </div>
-                            <div className="w-[50%] m-5">
-                                <Card>
-                                    <CardHeader color="blue-gray" className="relative h-50">
-                                        <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
-                                    </CardHeader>
-                                    <CardBody>
-                                        <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
-                                            UI/UX Review Check
-                                        </Typography>
-                                        <Typography className="text-justify">
-                                            The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                                            and near to &quot;Naviglio&quot; where you can enjoy the main night life
-                                            in Barcelona.
-                                        </Typography>
-                                    </CardBody>
-                                    <CardFooter className="pt-0">
-                                        <div className="flex justify-between">
-                                            <Button onClick={handleOpen}>Read More</Button>
-                                            <Typography>Update 10/10/2020</Typography>
-                                        </div>
-                                    </CardFooter>
-                                </Card>
-                            </div>
+                        <div className="w-[50%] m-5">
+                            <Card>
+                                <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
+                                    <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
+                                </CardHeader>
+                                <CardBody>
+                                    <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
+                                        UI/UX Review Check
+                                    </Typography>
+                                    <Typography className="text-justify">
+                                        The place is close to Barceloneta Beach and bus stop just 2 min by walk
+                                        and near to &quot;Naviglio&quot; where you can enjoy the main night life
+                                        in Barcelona.
+                                    </Typography>
+                                </CardBody>
+                                <CardFooter className="pt-0">
+                                    <div className="flex justify-between">
+                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Typography>Update 10/10/2020</Typography>
+                                    </div>
+                                </CardFooter>
+                            </Card>
+                        </div>
+                        <div className="w-[50%] m-5">
+                            <Card>
+                                <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
+                                    <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
+                                </CardHeader>
+                                <CardBody>
+                                    <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
+                                        UI/UX Review Check
+                                    </Typography>
+                                    <Typography className="text-justify">
+                                        The place is close to Barceloneta Beach and bus stop just 2 min by walk
+                                        and near to &quot;Naviglio&quot; where you can enjoy the main night life
+                                        in Barcelona.
+                                    </Typography>
+                                </CardBody>
+                                <CardFooter className="pt-0">
+                                    <div className="flex justify-between">
+                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Typography>Update 10/10/2020</Typography>
+                                    </div>
+                                </CardFooter>
+                            </Card>
+                        </div>
+                        <div className="w-[50%] m-5">
+                            <Card>
+                                <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
+                                    <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
+                                </CardHeader>
+                                <CardBody>
+                                    <Typography variant="h5" color="blue-gray" className="mb-2 text-left">
+                                        UI/UX Review Check
+                                    </Typography>
+                                    <Typography className="text-justify">
+                                        The place is close to Barceloneta Beach and bus stop just 2 min by walk
+                                        and near to &quot;Naviglio&quot; where you can enjoy the main night life
+                                        in Barcelona.
+                                    </Typography>
+                                </CardBody>
+                                <CardFooter className="pt-0">
+                                    <div className="flex justify-between">
+                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Typography>Update 10/10/2020</Typography>
+                                    </div>
+                                </CardFooter>
+                            </Card>
                         </div>
                     </div>
                 </div>
