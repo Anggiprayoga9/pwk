@@ -13,8 +13,11 @@ const Hero = () => {
     const handleOpen = () => setOpen(!open);
 
     const navigate = useNavigate();
-    const handleClick = () => {
+    const pussenarmedClick = () => {
         navigate("/pages/pussenarmed");
+    }
+    const pusdikarmedClick = () => {
+        navigate("/pages/pusdikarmed");
     }
 
     return (
@@ -153,7 +156,7 @@ const Hero = () => {
                                 </CardBody>
                                 <CardFooter className="pt-0">
                                     <div className="flex justify-between">
-                                        <Button onClick={handleClick}>Read More</Button>
+                                        <Button onClick={pussenarmedClick}>Read More</Button>
                                         <Typography>Update 10/10/2020</Typography>
                                     </div>
                                 </CardFooter>
@@ -176,7 +179,7 @@ const Hero = () => {
                                 </CardBody>
                                 <CardFooter className="pt-0">
                                     <div className="flex justify-between">
-                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Button onClick={pusdikarmedClick}>Read More</Button>
                                         <Typography>Update 10/10/2020</Typography>
                                     </div>
                                 </CardFooter>
@@ -199,7 +202,7 @@ const Hero = () => {
                                 </CardBody>
                                 <CardFooter className="pt-0">
                                     <div className="flex justify-between">
-                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Button>Read More</Button>
                                         <Typography>Update 10/10/2020</Typography>
                                     </div>
                                 </CardFooter>
@@ -222,7 +225,7 @@ const Hero = () => {
                                 </CardBody>
                                 <CardFooter className="pt-0">
                                     <div className="flex justify-between">
-                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Button>Read More</Button>
                                         <Typography>Update 10/10/2020</Typography>
                                     </div>
                                 </CardFooter>
@@ -254,7 +257,7 @@ const Hero = () => {
                                 </CardBody>
                                 <CardFooter className="pt-0">
                                     <div className="flex justify-between">
-                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Button>Read More</Button>
                                         <Typography>Update 10/10/2020</Typography>
                                     </div>
                                 </CardFooter>
@@ -277,7 +280,7 @@ const Hero = () => {
                                 </CardBody>
                                 <CardFooter className="pt-0">
                                     <div className="flex justify-between">
-                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Button>Read More</Button>
                                         <Typography>Update 10/10/2020</Typography>
                                     </div>
                                 </CardFooter>
@@ -300,7 +303,7 @@ const Hero = () => {
                                 </CardBody>
                                 <CardFooter className="pt-0">
                                     <div className="flex justify-between">
-                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Button>Read More</Button>
                                         <Typography>Update 10/10/2020</Typography>
                                     </div>
                                 </CardFooter>

@@ -8,10 +8,10 @@ import {
     Typography,
 } from "@material-tailwind/react";
 
-export default function DetailPussenarmed() {
+export default function DetailPusdikarmed() {
     const [activeTab, setActiveTab] = React.useState("sejarah");
     const data = [
-        
+
         {
             label: "SEJARAH",
             value: "sejarah",
@@ -31,8 +31,8 @@ export default function DetailPussenarmed() {
     return (
         <div className="flex flex-col p-5">
             <div className="flex items-center flex-col pt-5">
-                <img src="https://drive.google.com/uc?export=view&id=1bFyiJdRR5vTBvJ8UH1irqf2KUJH8Itca" className="justify-center" width="150" alt="PUSSENARMED" layout="fill" />
-                <Typography className="font-bold pt-10 pb-6 md:text-3xl sm:text-2xl text-xl">Pussenarmed</Typography>
+                <img src="https://drive.google.com/uc?export=view&id=1NFsyZB-PE_HZJMDH5I0rwIpzu2E45K4b" className="justify-center" width="150" alt="PUSSENARMED" layout="fill" />
+                <Typography className="font-bold pt-10 pb-6 md:text-3xl sm:text-2xl text-xl">Pusdikarmed</Typography>
             </div>
             <div className="pt-10">
                 <Tabs id="custom-animation" value={activeTab}>
