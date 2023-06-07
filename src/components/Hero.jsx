@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 import {
     Checkbox, Card, List, ListItem, CardHeader, CardBody,
     CardFooter, Dialog, DialogHeader, DialogBody, DialogFooter,
@@ -8,8 +10,13 @@ import {
 
 const Hero = () => {
     const [open, setOpen] = useState(false);
-
     const handleOpen = () => setOpen(!open);
+
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate("/pages/pussenarmed");
+    }
+
     return (
         <div className="text-black">
             <div className="max-w-full p-[80px] mt-[-16px] w-full mx-auto text-center flex flex-col justify-center">
@@ -146,7 +153,7 @@ const Hero = () => {
                                 </CardBody>
                                 <CardFooter className="pt-0">
                                     <div className="flex justify-between">
-                                        <Button onClick={handleOpen}>Read More</Button>
+                                        <Button onClick={handleClick}>Read More</Button>
                                         <Typography>Update 10/10/2020</Typography>
                                     </div>
                                 </CardFooter>
