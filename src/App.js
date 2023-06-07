@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { Main, Pusdikarmed, Pussenarmed } from "./pages";
+import { Main, Pusdikarmed, Pussenarmed, Ttrakorps } from "./pages";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Route path="/pages/pussenarmed" element={<Pussenarmed />} />
       <Route path="/pages/pussenarmed" element={<Pussenarmed />} />
       <Route path="/pages/pusdikarmed" element={<Pusdikarmed />} />
+      <Route path="/pages/allttrakorps" element={<Ttrakorps />} />
     </Routes>
   );
 }

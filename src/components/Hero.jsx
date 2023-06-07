@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 import {
     Checkbox, Card, List, ListItem, CardHeader, CardBody,
-    CardFooter, Dialog, DialogHeader, DialogBody, DialogFooter,
+    CardFooter, Dialog, DialogHeader, DialogBody,
     Button, ListItemPrefix, Typography
 } from "@material-tailwind/react";
 
@@ -18,6 +18,9 @@ const Hero = () => {
     }
     const pusdikarmedClick = () => {
         navigate("/pages/pusdikarmed");
+    }
+    const allttrakorpsClick = () => {
+        navigate("/pages/allttrakorps");
     }
 
     return (
@@ -136,7 +139,7 @@ const Hero = () => {
                 <div className="flex justify-center flex-col">
                     <div className="flex justify-between pt-[100px]">
                         <h4 className="font-bold">TTRAKORPS</h4>
-                        <a href="#" className="text-deep-orange-500 font-bold" >Selengkapnya</a>
+                        <a className="text-deep-orange-500 font-bold btn" onClick={allttrakorpsClick} >Selengkapnya</a>
                     </div>
                     <div className="mt-[50px] flex justify-between">
                         <div className="w-[50%] m-5">
