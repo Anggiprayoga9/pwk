@@ -25,7 +25,7 @@ const Hero = () => {
 
     return (
         <div className="text-black">
-            <div className="max-w-full p-[50px] mt-[-16px] w-full mx-auto text-center flex flex-col justify-center">
+            <div className="max-w-full p-[40px] mt-[-16px] w-full mx-auto text-center flex flex-col justify-center">
                 <h1 className="text-[#000300] font-bold p-2 md:text-5xl sm:text-4xl text-2xl">Sdirbinsen Pencarian Informasi</h1>
                 <p>Jelajahi informasi mengenai data personil, belajar di E-Learning dan mencari material</p>
 
@@ -55,11 +55,11 @@ const Hero = () => {
 
                 {/* Start Checkbox Button */}
                 <div className="flex justify-center mt-[50px]">
-                    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-0 md:gap-0">
-                        <Card className="w-[90%] m-3">
+                    <div className="justify-items-center xs:grid-cols-1 sm:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 md:gap-0">
+                        <Card className="w-[150px] m-3">
                             <List className="flex-row">
                                 <ListItem className="p-0">
-                                    <label className="px-3 py-2 flex items-center w-full cursor-pointer">
+                                    <label className="px-3 py-2 flex items-center cursor-pointer">
                                         <ListItemPrefix className="mr-3">
                                             <Checkbox
                                                 id="horizontal-list-react"
@@ -75,10 +75,10 @@ const Hero = () => {
                                 </ListItem>
                             </List>
                         </Card>
-                        <Card className="w-[90%] m-3">
+                        <Card className="w-[150px] m-3">
                             <List className="flex-row">
                                 <ListItem className="p-0">
-                                    <label className="px-3 py-2 flex items-center w-full cursor-pointer">
+                                    <label className="px-3 py-2 flex items-center cursor-pointer">
                                         <ListItemPrefix className="mr-3">
                                             <Checkbox
                                                 id="horizontal-list-react"
@@ -94,10 +94,10 @@ const Hero = () => {
                                 </ListItem>
                             </List>
                         </Card>
-                        <Card className="w-[90%] m-3">
+                        <Card className="w-[150px] m-3">
                             <List className="flex-row">
                                 <ListItem className="p-0">
-                                    <label className="px-3 py-2 flex items-center w-full cursor-pointer">
+                                    <label className="px-3 py-2 flex items-center cursor-pointer">
                                         <ListItemPrefix className="mr-3">
                                             <Checkbox
                                                 id="horizontal-list-react"
@@ -113,10 +113,10 @@ const Hero = () => {
                                 </ListItem>
                             </List>
                         </Card>
-                        <Card className="w-[90%] m-3">
+                        <Card className="w-[150px] m-3">
                             <List className="flex-row">
                                 <ListItem className="p-0">
-                                    <label className="px-3 py-2 flex items-center w-full cursor-pointer">
+                                    <label className="px-3 py-2 flex items-center cursor-pointer">
                                         <ListItemPrefix className="mr-3">
                                             <Checkbox
                                                 id="horizontal-list-react"
@@ -139,9 +139,9 @@ const Hero = () => {
                 {/* Start View box 1*/}
 
                 <div className="flex justify-center flex-col ">
-                    <div className="flex justify-between pt-[100px]">
+                    <div className="flex flex-row items-center justify-between pt-[100px]">
                         <h4 className="font-bold">TTRAKORPS</h4>
-                        <a className="text-deep-orange-500 font-bold btn" onClick={allttrakorpsClick} >Selengkapnya</a>
+                        <Button className="text-deep-orange-500 font-bold" variant="text" onClick={allttrakorpsClick} >Selengkapnya </Button>
                     </div>
                     <div className="mt-[50px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 md:gap-0">
                         <div className="w-[90%] m-5">
