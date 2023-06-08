@@ -25,7 +25,7 @@ const Hero = () => {
 
     return (
         <div className="text-black">
-            <div className="max-w-full p-[80px] mt-[-16px] w-full mx-auto text-center flex flex-col justify-center">
+            <div className="max-w-full p-[50px] mt-[-16px] w-full mx-auto text-center flex flex-col justify-center">
                 <h1 className="text-[#000300] font-bold p-2 md:text-5xl sm:text-4xl text-2xl">Sdirbinsen Pencarian Informasi</h1>
                 <p>Jelajahi informasi mengenai data personil, belajar di E-Learning dan mencari material</p>
 
@@ -55,94 +55,96 @@ const Hero = () => {
 
                 {/* Start Checkbox Button */}
                 <div className="flex justify-center mt-[50px]">
-                    <Card className="w-[20%] m-3">
-                        <List className="flex-row">
-                            <ListItem className="p-0">
-                                <label className="px-3 py-2 flex items-center w-full cursor-pointer">
-                                    <ListItemPrefix className="mr-3">
-                                        <Checkbox
-                                            id="horizontal-list-react"
-                                            ripple={false}
-                                            className="hover:before:opacity-0"
-                                            containerProps={{
-                                                className: "p-0"
-                                            }}
-                                        />
-                                    </ListItemPrefix>
-                                    <Typography color="blue-gray" className="font-medium">Kategori 1</Typography>
-                                </label>
-                            </ListItem>
-                        </List>
-                    </Card>
-                    <Card className="w-[20%] m-3">
-                        <List className="flex-row">
-                            <ListItem className="p-0">
-                                <label className="px-3 py-2 flex items-center w-full cursor-pointer">
-                                    <ListItemPrefix className="mr-3">
-                                        <Checkbox
-                                            id="horizontal-list-react"
-                                            ripple={false}
-                                            className="hover:before:opacity-0"
-                                            containerProps={{
-                                                className: "p-0"
-                                            }}
-                                        />
-                                    </ListItemPrefix>
-                                    <Typography color="blue-gray" className="font-medium">Kategori 2</Typography>
-                                </label>
-                            </ListItem>
-                        </List>
-                    </Card>
-                    <Card className="w-[20%] m-3">
-                        <List className="flex-row">
-                            <ListItem className="p-0">
-                                <label className="px-3 py-2 flex items-center w-full cursor-pointer">
-                                    <ListItemPrefix className="mr-3">
-                                        <Checkbox
-                                            id="horizontal-list-react"
-                                            ripple={false}
-                                            className="hover:before:opacity-0"
-                                            containerProps={{
-                                                className: "p-0"
-                                            }}
-                                        />
-                                    </ListItemPrefix>
-                                    <Typography color="blue-gray" className="font-medium">Kategori 3</Typography>
-                                </label>
-                            </ListItem>
-                        </List>
-                    </Card>
-                    <Card className="w-[20%] m-3">
-                        <List className="flex-row">
-                            <ListItem className="p-0">
-                                <label className="px-3 py-2 flex items-center w-full cursor-pointer">
-                                    <ListItemPrefix className="mr-3">
-                                        <Checkbox
-                                            id="horizontal-list-react"
-                                            ripple={false}
-                                            className="hover:before:opacity-0"
-                                            containerProps={{
-                                                className: "p-0"
-                                            }}
-                                        />
-                                    </ListItemPrefix>
-                                    <Typography color="blue-gray" className="font-medium">Kategori 4</Typography>
-                                </label>
-                            </ListItem>
-                        </List>
-                    </Card>
+                    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-0 md:gap-0">
+                        <Card className="w-[90%] m-3">
+                            <List className="flex-row">
+                                <ListItem className="p-0">
+                                    <label className="px-3 py-2 flex items-center w-full cursor-pointer">
+                                        <ListItemPrefix className="mr-3">
+                                            <Checkbox
+                                                id="horizontal-list-react"
+                                                ripple={false}
+                                                className="hover:before:opacity-0"
+                                                containerProps={{
+                                                    className: "p-0"
+                                                }}
+                                            />
+                                        </ListItemPrefix>
+                                        <Typography color="blue-gray" className="font-medium">Kategori 1</Typography>
+                                    </label>
+                                </ListItem>
+                            </List>
+                        </Card>
+                        <Card className="w-[90%] m-3">
+                            <List className="flex-row">
+                                <ListItem className="p-0">
+                                    <label className="px-3 py-2 flex items-center w-full cursor-pointer">
+                                        <ListItemPrefix className="mr-3">
+                                            <Checkbox
+                                                id="horizontal-list-react"
+                                                ripple={false}
+                                                className="hover:before:opacity-0"
+                                                containerProps={{
+                                                    className: "p-0"
+                                                }}
+                                            />
+                                        </ListItemPrefix>
+                                        <Typography color="blue-gray" className="font-medium">Kategori 2</Typography>
+                                    </label>
+                                </ListItem>
+                            </List>
+                        </Card>
+                        <Card className="w-[90%] m-3">
+                            <List className="flex-row">
+                                <ListItem className="p-0">
+                                    <label className="px-3 py-2 flex items-center w-full cursor-pointer">
+                                        <ListItemPrefix className="mr-3">
+                                            <Checkbox
+                                                id="horizontal-list-react"
+                                                ripple={false}
+                                                className="hover:before:opacity-0"
+                                                containerProps={{
+                                                    className: "p-0"
+                                                }}
+                                            />
+                                        </ListItemPrefix>
+                                        <Typography color="blue-gray" className="font-medium">Kategori 3</Typography>
+                                    </label>
+                                </ListItem>
+                            </List>
+                        </Card>
+                        <Card className="w-[90%] m-3">
+                            <List className="flex-row">
+                                <ListItem className="p-0">
+                                    <label className="px-3 py-2 flex items-center w-full cursor-pointer">
+                                        <ListItemPrefix className="mr-3">
+                                            <Checkbox
+                                                id="horizontal-list-react"
+                                                ripple={false}
+                                                className="hover:before:opacity-0"
+                                                containerProps={{
+                                                    className: "p-0"
+                                                }}
+                                            />
+                                        </ListItemPrefix>
+                                        <Typography color="blue-gray" className="font-medium">Kategori 4</Typography>
+                                    </label>
+                                </ListItem>
+                            </List>
+                        </Card>
+                    </div>
                 </div>
                 {/* End Checkbox Button */}
 
                 {/* Start View box 1*/}
 
-                <div className="flex justify-center flex-col">
+                <div className="flex justify-center flex-col ">
                     <div className="flex justify-between pt-[100px]">
                         <h4 className="font-bold">TTRAKORPS</h4>
                         <a className="text-deep-orange-500 font-bold btn" onClick={allttrakorpsClick} >Selengkapnya</a>
                     </div>
-                    <div className="mt-[50px] flex justify-between">
-                        <div className="w-[50%] m-5">
+                    <div className="mt-[50px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 md:gap-0">
+                        <div className="w-[90%] m-5">
                             <Card>
                                 <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
                                     <img src="https://drive.google.com/uc?export=view&id=1bFyiJdRR5vTBvJ8UH1irqf2KUJH8Itca" className="justify-center" width="150" alt="PUSSENARMED" layout="fill" />
@@ -165,7 +167,7 @@ const Hero = () => {
                                 </CardFooter>
                             </Card>
                         </div>
-                        <div className="w-[50%] m-5">
+                        <div className="w-[90%] m-5">
                             <Card>
                                 <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
                                     <img src="https://drive.google.com/uc?export=view&id=1NFsyZB-PE_HZJMDH5I0rwIpzu2E45K4b" width="150" alt="PUSDIKARMED" layout="fill" />
@@ -188,7 +190,7 @@ const Hero = () => {
                                 </CardFooter>
                             </Card>
                         </div>
-                        <div className="w-[50%] m-5">
+                        <div className="w-[90%] m-5">
                             <Card>
                                 <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
                                     <img src="https://drive.google.com/uc?export=view&id=1TcVYY4XKaYSj7_GrbIUPUQWwipDDG23k" width="90" height="auto" alt="RESIMEN 1" layout="fill" />
@@ -211,7 +213,7 @@ const Hero = () => {
                                 </CardFooter>
                             </Card>
                         </div>
-                        <div className="w-[50%] m-5">
+                        <div className="w-[90%] m-5">
                             <Card>
                                 <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
                                     <img src="https://drive.google.com/uc?export=view&id=11CdYVvpfNxsZAdTvD8838F8_RI4NJ7av" alt="RESIMEN 2" width="90" height="auto" layout="fill" />
@@ -238,12 +240,12 @@ const Hero = () => {
                 </div>
 
                 <div className="flex justify-center flex-col">
-                    <div className="flex justify-between pt-[100px]">
+                    <div className="flex justify-between pt-[50px]">
                         <h4 className="font-bold">Kategori 2</h4>
                         <a href="#" className="text-deep-orange-500 font-bold" >Selengkapnya</a>
                     </div>
-                    <div className="mt-[50px] flex justify-between">
-                        <div className="w-[50%] m-5">
+                    <div className="mt-[50px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 md:gap-0">
+                        <div className="w-[90%] m-5">
                             <Card>
                                 <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
                                     <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
@@ -266,7 +268,7 @@ const Hero = () => {
                                 </CardFooter>
                             </Card>
                         </div>
-                        <div className="w-[50%] m-5">
+                        <div className="w-[90%] m-5">
                             <Card>
                                 <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
                                     <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
@@ -289,7 +291,7 @@ const Hero = () => {
                                 </CardFooter>
                             </Card>
                         </div>
-                        <div className="w-[50%] m-5">
+                        <div className="w-[90%] m-5">
                             <Card>
                                 <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
                                     <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />
@@ -312,7 +314,7 @@ const Hero = () => {
                                 </CardFooter>
                             </Card>
                         </div>
-                        <div className="w-[50%] m-5">
+                        <div className="w-[90%] m-5">
                             <Card>
                                 <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
                                     <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="img-blur-shadow" layout="fill" />

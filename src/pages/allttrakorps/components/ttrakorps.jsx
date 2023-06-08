@@ -2,9 +2,9 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 import {
-    Card,CardHeader, CardBody,
+    Card, CardHeader, CardBody,
     CardFooter,
-    Button,Typography
+    Button, Typography
 } from "@material-tailwind/react";
 
 const Allttrakorps = () => {
@@ -18,8 +18,34 @@ const Allttrakorps = () => {
     }
 
     return (
+
         <div className="text-black">
-            <div className="max-w-full p-[80px] mt-[-16px] w-full mx-auto text-center flex flex-col justify-center">
+            {/* <div className="container mt-5">
+                <div className="row">
+                    <div className="col-sm-4">
+                        <h2>Column 1</h2>
+                        <p>
+                            The .navbar-brand can be applied to most
+                            elements, but an anchor works best, as some elements might require utility classes or custom styles.
+                        </p>
+                    </div>
+                    <div className="col-sm-4">
+                        <h2>Column 2</h2>
+                        <p>
+                            The .navbar-brand can be applied to most
+                            elements, but an anchor works best, as some elements might require utility classes or custom styles.
+                        </p>
+                    </div>
+                    <div className="col-sm-4">
+                        <h2>Column 3</h2>
+                        <p>
+                            The .navbar-brand can be applied to most
+                            elements, but an anchor works best, as some elements might require utility classes or custom styles.
+                        </p>
+                    </div>
+                </div>
+            </div> */}
+            <div className="max-w-full p-[40px] mt-[-16px] w-full mx-auto text-center flex flex-col justify-center">
                 <h1 className="text-[#000300] font-bold p-2 md:text-3xl sm:text-2xl text-xl">ALL TTRAKORPS</h1>
 
                 {/* Start  Seacrh box Button */}
@@ -48,8 +74,8 @@ const Allttrakorps = () => {
 
                 {/* Start View box 1*/}
                 <div className="flex justify-center flex-col">
-                    <div className="mt-[50px] flex row-auto">
-                        <div className="w-[50%] m-5">
+                    <div className="mt-[50px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 md:gap-0">
+                        <div className="w-[90%] m-5">
                             <Card>
                                 <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
                                     <img src="https://drive.google.com/uc?export=view&id=1bFyiJdRR5vTBvJ8UH1irqf2KUJH8Itca" className="justify-center" width="150" alt="PUSSENARMED" layout="fill" />
@@ -72,7 +98,7 @@ const Allttrakorps = () => {
                                 </CardFooter>
                             </Card>
                         </div>
-                        <div className="w-[50%] m-5">
+                        <div className="w-[90%] m-5">
                             <Card>
                                 <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
                                     <img src="https://drive.google.com/uc?export=view&id=1NFsyZB-PE_HZJMDH5I0rwIpzu2E45K4b" width="150" alt="PUSDIKARMED" layout="fill" />
@@ -95,7 +121,7 @@ const Allttrakorps = () => {
                                 </CardFooter>
                             </Card>
                         </div>
-                        <div className="w-[50%] m-5">
+                        <div className="w-[90%] m-5">
                             <Card>
                                 <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
                                     <img src="https://drive.google.com/uc?export=view&id=1TcVYY4XKaYSj7_GrbIUPUQWwipDDG23k" width="90" height="auto" alt="RESIMEN 1" layout="fill" />
@@ -118,7 +144,7 @@ const Allttrakorps = () => {
                                 </CardFooter>
                             </Card>
                         </div>
-                        <div className="w-[50%] m-5">
+                        <div className="w-[90%] m-5">
                             <Card>
                                 <CardHeader color="white" className="flex justify-center items-center" style={{ height: 150 }}>
                                     <img src="https://drive.google.com/uc?export=view&id=11CdYVvpfNxsZAdTvD8838F8_RI4NJ7av" alt="RESIMEN 2" width="90" height="auto" layout="fill" />
